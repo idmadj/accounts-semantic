@@ -168,8 +168,8 @@ export class PasswordOrService extends Accounts.ui.PasswordOrService {
 
     if (hasPasswordService && services.length > 0) {
       return (
-        <p style={style} className={className}>
-          {`${T9n.get('orUse')} ${ labels.join(' / ') }`}
+        <p style={style} className={className}>
+          {`${Accounts.ui._options.translate('orUse')} ${ labels.join(' / ') }`}
         </p>
       );
     }
