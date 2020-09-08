@@ -1,13 +1,13 @@
 Package.describe({
   name: 'std:accounts-semantic',
-  version: '1.1.8',
-  summary: 'Semantic UI – Accounts UI for React in Meteor 1.3',
+  version: '1.1.9',
+  summary: 'Semantic UI – Accounts UI for React in Meteor 1.11',
   git: 'https://github.com/studiointeract/accounts-semantic',
   documentation: 'README.md'
 });
 
 Package.onUse(function(api) {
-  api.versionsFrom('1.3');
+  api.versionsFrom('1.11');
   api.use('ecmascript');
   api.use('underscore');
   api.use('fourseven:scss@4.5.0');
